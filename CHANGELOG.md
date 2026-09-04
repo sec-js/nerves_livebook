@@ -4,13 +4,21 @@
 -->
 # Changelog
 
+## v0.19.6 - 2026-09-04
+
+This is a security/bug fix bump for all platforms except the Nerves Starter Kit.
+NSK and other Trellis board users need to reflash their devices.
+
+* Updates
+  * Update Nerves systems to [nerves_system_br v1.34.4](https://github.com/nerves-project/nerves_system_br/releases/tag/v1.34.4)
+
 ## v0.19.5 - 2026-08-05
 
 This is mostly a security and bug fix release.
 
 * Updates
   * Update to [Livebook v0.19.9](https://github.com/livebook-dev/livebook/releases/tag/v0.19.9)
-  * Update Nerves systems to [nerves_system_br v1.34.1](https://github.com/nerves-project/nerves_system_br/releases/tag/v1.34.0)
+  * Update Nerves systems to [nerves_system_br v1.34.1](https://github.com/nerves-project/nerves_system_br/releases/tag/v1.34.1)
   * Include the HTS221 temperature/humidity sensor library again. It had been
     commented out due to a dependency issue that's now been fixed.
 
